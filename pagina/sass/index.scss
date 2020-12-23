@@ -49,3 +49,39 @@
     text-decoration: none;
     padding: 16px 0 24px 16px;
 }
+//nav bar desktop
+@media(min-width:1280px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 80px;
+        padding:0 100px 0 100px;
+        background: transparent;
+        color: black;
+        position: sticky;
+        top: auto;
+        
+    }
+    .hamburguesa, .menu-check{
+        display: none;
+    }
+    .logo{
+        height: 36px;
+        width: 36spx;
+    }
+    .menu{
+        display: inline-flex;
+        position: relative;
+        top: -17px;
+        left: auto;
+        background:transparent;
+        width: 100%;
+    }
+    .menu div a{
+        display: inline-block;
+        color: #060A24;
+        text-decoration: none;
+        padding: 16px ;
+    }
+}

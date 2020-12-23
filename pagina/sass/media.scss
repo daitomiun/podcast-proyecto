@@ -1,1 +1,38 @@
 //media queries
+
+
+//nav bar desktop
+@media(min-width:1280px){
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding:0 16px 0 16px;
+        background: white;
+        color: black;
+        position: sticky;
+        top: 0;
+        margin-bottom: 29px;
+    }
+    .logo{
+        height: 36px;
+        width: 36px;
+    }
+    .menu-check:checked ~ label .hamburguesa{
+        display: none;
+    }
+    .closed,
+    .menu{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .menu div a{
+        display: flex;
+        color: #fff;
+        text-decoration: none;
+        padding: 16px 0 24px 16px;
+    }
+}
