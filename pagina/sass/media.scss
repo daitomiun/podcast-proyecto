@@ -1,16 +1,26 @@
 //media queries
 
 //title  y container
-@media(min-width:1280px){
+@media(min-width:1440px){
     .title{
+        flex-direction: row;
         font-size: 48px;
         &.main{
             font-size: 64px;
         }
+        &.secondary-tit{
+            margin-top: 200px;
+        }
+    }
+    br{
+        display: none;
+    }
+    .links{
+        margin-top: 56px;
     }
 }
 //margenes y flex de container, imagenes
-@media(min-width:1280px){
+@media(min-width:1440px){
     .container{
         display: flex;
         margin: 0 200px;
@@ -32,14 +42,16 @@
             flex-wrap: wrap;
             justify-content: center;
             width: 100%;
-            height: 450px;
+            height: 100%;
+            max-width: 50%;
+            max-height: 1000px;
             &.cont-main{
                 padding: 0 72px;
             }
         }
     }
     .A-box{
-        padding-top: 100px;
+        align-self: center;
         padding-left: 62px;
         height: 350px;
         width: 464px;
@@ -53,3 +65,4 @@
         flex-direction: column;
     }
 }
+
