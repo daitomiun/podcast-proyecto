@@ -11,20 +11,20 @@ section {
 .background {
   position: absolute;
   content: " ";
-  top: 370px;
+  top: 350px;
   bottom: 0;
   right: 0;
   left: 0;
   width: 100%;
-  height: 1100px;
+  height: 1200px;
   z-index: -1;
   transform: skewY(-5deg);
   transform-origin: top right;
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
 }
 .background.second {
-  top: 4800px;
-  height: 400px;
+  top: 4900px;
+  height: 385px;
 }
 
 .container {
@@ -79,6 +79,14 @@ section {
   padding: 15px 25px;
 }
 
+.links:hover {
+  background-image: linear-gradient(225deg, #0000FF 0%, #00F3BB 100%);
+}
+.links:hover a {
+  font-family: "IBM Plex Mono", monospace;
+  color: #ffffff;
+}
+
 .container-img {
   margin: 11px 11px;
 }
@@ -90,7 +98,10 @@ section {
   flex-direction: row;
   flex-wrap: nowrap;
   align-items: center;
-  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+  max-width: 1440px;
+  max-height: 1000px;
 }
 
 .paragraph {
@@ -105,8 +116,8 @@ section {
   height: 100%;
   min-width: 300px;
   max-width: 600px;
-  min-height: 225px;
-  max-height: 232px;
+  min-height: 235px;
+  max-height: 240px;
 }
 
 .box {
@@ -149,6 +160,9 @@ section {
   padding-top: 24px;
 }
 
+.footer {
+  text-align: center;
+}
 .footer i {
   margin: 16px 19px 0 23px;
 }
@@ -179,6 +193,10 @@ section {
     margin: 0 200px;
   }
 
+  .sect-3 {
+    margin-top: 50px;
+  }
+
   .image {
     width: 400px;
     height: 364px;
@@ -193,23 +211,28 @@ section {
     display: flex;
     margin: 26px 100px;
   }
-  .container-img.container-left, .container-img .container-right {
-    flex-direction: row;
-    flex-wrap: nowrap;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    max-width: 50%;
-    max-height: 1000px;
-  }
-  .container-img.container-left.cont-main, .container-img .container-right.cont-main {
+  .container-img.cont-main {
     padding: 0 72px;
+  }
+
+  .sect-3 .container-img .container-left {
+    width: 457.6px;
+    margin-right: 62px;
+  }
+
+  .sect-3 {
+    margin: 0 200px;
+  }
+
+  .sect-4 .cont-sec-L {
+    display: flex;
+    flex-direction: row;
+    width: 1440px;
+    height: 364px;
   }
 
   .A-box {
     align-self: center;
-    padding-left: 62px;
     height: 350px;
     width: 464px;
   }
@@ -222,6 +245,11 @@ section {
 
   .container:first-child {
     flex-direction: column;
+  }
+}
+@media (min-width: 1440px) {
+  .background {
+    height: 1000px;
   }
 }
 .header {
@@ -276,6 +304,18 @@ section {
   color: #fff;
   text-decoration: none;
   padding: 16px 0 24px 16px;
+}
+
+.menu div a:hover {
+  text-decoration: line-through;
+  color: #00F3BB;
+  transition: 0.2s ease-in-out;
+}
+
+.menu div a:active {
+  text-decoration: line-through;
+  color: rgba(6, 10, 36, 0.56);
+  transition: 0.2s ease-in-out;
 }
 
 @media (min-width: 1280px) {

@@ -49,6 +49,16 @@
     text-decoration: none;
     padding: 16px 0 24px 16px;
 }
+.menu div a:hover{
+    text-decoration: line-through;
+    color: #00F3BB;
+    transition: .2s ease-in-out;
+}
+.menu div a:active{
+    text-decoration: line-through;
+    color: rgba(6,10,36,0.56);
+    transition: .2s ease-in-out;
+}
 //nav bar desktop
 @media(min-width:1280px){
     .header{
