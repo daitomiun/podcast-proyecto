@@ -16,7 +16,7 @@ section{
     transform-origin: top right;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     &.second{
-        top: 4900px;
+        top: 4800px;
         height: 385px;
     }
 }
@@ -88,7 +88,7 @@ section{
     align-items: center;
     width: 100%;
     height: 100%;
-    max-width: 1440px;
+    max-width: 1540px;
     max-height: 1000px;
 }
 .paragraph{
@@ -106,11 +106,12 @@ section{
     max-height: 240px;
 }
 .box{
-    display: flex;
-    flex-direction: column;
-    height: 150px;
-    width: 320px;
-    margin-bottom: 50px;
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 150px;
 }
 .phone{
     width: 300px;

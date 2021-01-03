@@ -23,7 +23,7 @@ section {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
 }
 .background.second {
-  top: 4900px;
+  top: 4800px;
   height: 385px;
 }
 
@@ -100,7 +100,7 @@ section {
   align-items: center;
   width: 100%;
   height: 100%;
-  max-width: 1440px;
+  max-width: 1540px;
   max-height: 1000px;
 }
 
@@ -121,11 +121,12 @@ section {
 }
 
 .box {
-  display: flex;
-  flex-direction: column;
-  height: 150px;
-  width: 320px;
-  margin-bottom: 50px;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  min-width: 200px;
+  max-height: 200px;
+  min-height: 150px;
 }
 
 .phone {
@@ -179,6 +180,17 @@ section {
   .title.secondary-tit {
     margin-top: 200px;
   }
+  .title.secondary-tit.last-tit {
+    margin-left: 200px;
+    margin-top: 150px;
+  }
+  .title.small {
+    margin: 17px 20px;
+  }
+
+  p .small {
+    text-align: center;
+  }
 
   br {
     display: none;
@@ -187,10 +199,14 @@ section {
   .links {
     margin-top: 56px;
   }
+  .links.sec-link {
+    align-self: center;
+  }
 }
 @media (min-width: 1440px) {
   .container {
     display: flex;
+    flex-direction: column;
     margin: 0 200px;
   }
 
@@ -205,6 +221,7 @@ section {
 
   .container-img {
     display: flex;
+    justify-content: center;
     margin: 26px 100px;
   }
   .container-img.cont-main {
@@ -213,10 +230,11 @@ section {
   .container-img.img-2 {
     display: flex;
     flex-direction: column;
-    width: 1440px;
+    width: 100%;
+    max-width: 1600px;
     height: 728px;
   }
-  .container-img.img-2.img-3 {
+  .container-img .container-img .img-3 {
     margin: 0 200px;
   }
   .container-img .image {
@@ -224,6 +242,11 @@ section {
     flex-wrap: wrap;
     width: 100%;
     height: 100%;
+  }
+  .container-img .image.border {
+    margin: 0 0 0 90px;
+    width: 104px;
+    height: 104px;
   }
 
   .sect-3 .container-img .container-left {
@@ -247,6 +270,27 @@ section {
     height: 364px;
   }
 
+  .sect-5 {
+    margin-bottom: 40px;
+  }
+
+  .box {
+    width: 300px;
+    height: 200px;
+  }
+
+  .box .small:nth-last-child(1) {
+    margin: 17px 0 0 50px;
+  }
+
+  .sect-6 {
+    margin-top: 100px;
+  }
+
+  footer {
+    margin-top: 75px;
+  }
+
   .A-box {
     align-self: center;
     height: 350px;
@@ -266,6 +310,24 @@ section {
 @media (min-width: 1440px) {
   .background {
     height: 1000px;
+  }
+  .background.second {
+    top: 3300px;
+    height: 518px;
+  }
+
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    height: 96px;
+    padding-top: 25px;
+  }
+  .footer .cont-four {
+    padding-right: 300px;
+  }
+  .footer .cont-four:last-child {
+    padding-left: 300px;
+    padding-right: 0;
   }
 }
 .header {

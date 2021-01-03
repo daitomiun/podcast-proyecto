@@ -10,19 +10,34 @@
         }
         &.secondary-tit{
             margin-top: 200px;
+            &.last-tit{
+                margin-left: 200px;
+                margin-top: 150px;
+            }
         }
+        &.small{
+            margin: 17px 20px;
+        }
+    }
+    p .small{
+        text-align: center;
     }
     br{
         display: none;
     }
     .links{
         margin-top: 56px;
+        &.sec-link{
+            align-self: center;
+        }
     }
+
 }
 //margenes y flex de container, imagenes
 @media(min-width:1440px){
     .container{
         display: flex;
+        flex-direction: column;
         margin: 0 200px;
     }
     .sect-3{
@@ -34,6 +49,7 @@
     }
     .container-img{
         display: flex;
+        justify-content: center;
         margin: 26px 100px;
         &.cont-main{
             padding: 0 72px;
@@ -41,18 +57,23 @@
         &.img-2{
         display: flex;
         flex-direction: column;
-        width: 1440px;
+        width: 100%;
+        max-width: 1600px;
         height: 728px;
-        &.img-3{
-            margin: 0 200px;
-    
-        }
+    }
+    .container-img .img-3{
+        margin: 0 200px;
     }
     .image{
         flex-direction: row;
         flex-wrap: wrap;
         width: 100%;
         height: 100%;
+        &.border{
+            margin: 0 0 0 90px;
+            width: 104px;
+            height: 104px;
+        }
     }
     }
     .sect-3 .container-img .container-left{
@@ -72,9 +93,22 @@
             width: 100%;
             height: 364px;
         }
-    // .sect-5 .container-left,.container-right{
-
-    // }
+    .sect-5{
+        margin-bottom: 40px;
+    }
+    .box{
+        width: 300px;
+        height: 200px;
+    }
+    .box .small:nth-last-child(1){
+        margin: 17px 0 0 50px;
+    }
+    .sect-6{
+        margin-top: 100px;
+    }
+    footer{
+        margin-top: 75px;
+    }
     .A-box{
         align-self: center;
         height: 350px;
@@ -93,6 +127,23 @@
 @media (min-width:1440px){
     .background{
         height: 1000px;
+        &.second{
+            top: 3300px;
+            height: 518px;
+        }
+    }
+    .footer{
+        flex-direction: row;
+        justify-content: space-around;
+        height: 96px;
+        padding-top: 25px;
+        .cont-four{
+            padding-right: 300px;
+        }
+        .cont-four:last-child{
+            padding-left: 300px;
+            padding-right: 0;
+        }
     }
 }
 
