@@ -288,7 +288,7 @@ section {
   }
 
   footer {
-    margin-top: 75px;
+    margin-top: 30px;
   }
 
   .A-box {
@@ -312,6 +312,7 @@ section {
     height: 1000px;
   }
   .background.second {
+    transform: skewY(-3deg);
     top: 3300px;
     height: 518px;
   }
@@ -319,7 +320,7 @@ section {
   .footer {
     flex-direction: row;
     justify-content: space-around;
-    height: 96px;
+    height: 100px;
     padding-top: 25px;
   }
   .footer .cont-four {

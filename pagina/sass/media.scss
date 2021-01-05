@@ -107,7 +107,7 @@
         margin-top: 100px;
     }
     footer{
-        margin-top: 75px;
+        margin-top: 30px;
     }
     .A-box{
         align-self: center;
@@ -128,6 +128,7 @@
     .background{
         height: 1000px;
         &.second{
+            transform: skewY(-3deg);
             top: 3300px;
             height: 518px;
         }
@@ -135,7 +136,7 @@
     .footer{
         flex-direction: row;
         justify-content: space-around;
-        height: 96px;
+        height: 100px;
         padding-top: 25px;
         .cont-four{
             padding-right: 300px;
