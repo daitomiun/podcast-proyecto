@@ -16,7 +16,7 @@ section{
     transform-origin: top right;
     background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
     &.second{
-        top: 4800px;
+        top: 4850px;
         height: 385px;
     }
 }
@@ -69,6 +69,7 @@ section{
         padding: 15px 25px;
     }
 }
+
 .links:hover{
     background-image: linear-gradient(225deg, #0000FF 0%,  #00F3BB 100%);
     & a{
@@ -134,9 +135,6 @@ section{
 .container-right .image:nth-last-child(1){
     margin-bottom: 48px;
 }
-// .container-right .small:nth-last-child(1){
-//     margin-bottom: 107px;
-// }
 .footer{
     display: flex;
     flex-direction: column;
