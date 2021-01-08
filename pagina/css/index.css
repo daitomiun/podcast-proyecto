@@ -11,7 +11,7 @@ section {
 .background {
   position: absolute;
   content: " ";
-  top: 350px;
+  top: 390px;
   bottom: 0;
   right: 0;
   left: 0;
@@ -23,12 +23,18 @@ section {
   background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
 }
 .background.second {
-  top: 4850px;
+  top: 4950px;
   height: 385px;
 }
 
 .container {
+  display: flex;
+  flex-direction: column;
   margin: 0 20px;
+}
+
+.A-box {
+  margin: 0 9px;
 }
 
 .title {
@@ -41,7 +47,7 @@ section {
 }
 .title.secondary-tit {
   color: #ffffff;
-  margin-top: 80px;
+  margin-top: 70px;
 }
 .title.secondary-tit h4 {
   font-weight: 500;
@@ -52,6 +58,7 @@ section {
   margin-bottom: 14px;
 }
 .title.fourth-tit {
+  margin-top: 30px;
   margin-bottom: 37px;
 }
 .title.small {
@@ -109,6 +116,7 @@ section {
   font-size: 14px;
   letter-spacing: 0;
   margin-top: 16px;
+  margin-right: 11px;
 }
 
 .frame {
@@ -180,12 +188,22 @@ section {
     max-height: 620px;
   }
 
-  .sec-link {
-    justify-content: center;
+  .links {
+    margin-top: 56px;
+  }
+  .links.sec-link {
+    align-self: center;
+  }
+}
+@media (min-width: 330px) {
+  .background.second {
+    transform: skewY(-3deg);
+    top: 5050px;
+    height: 380px;
   }
 }
 @media (min-width: 350px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 25px;
   }
 
@@ -198,12 +216,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 4950px;
+    top: 5150px;
     height: 380px;
   }
 }
 @media (min-width: 350px) and (min-width: 370px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 30px;
   }
 
@@ -216,12 +234,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5050px;
+    top: 5250px;
     height: 380px;
   }
 }
 @media (min-width: 390px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 35px;
   }
 
@@ -234,12 +252,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5100px;
+    top: 5300px;
     height: 380px;
   }
 }
 @media (min-width: 410px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 40px;
   }
 
@@ -252,12 +270,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5225px;
+    top: 5400px;
     height: 380px;
   }
 }
 @media (min-width: 440px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 45px;
   }
 
@@ -270,12 +288,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5325px;
+    top: 5490px;
     height: 380px;
   }
 }
 @media (min-width: 460px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 50px;
   }
 
@@ -288,12 +306,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5350px;
+    top: 5590px;
     height: 380px;
   }
 }
 @media (min-width: 470px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 55px;
   }
 
@@ -301,21 +319,17 @@ section {
     margin-left: 50px;
   }
 
-  .sect-2 {
-    margin-top: 100px;
-  }
-
   .background {
     height: 1200px;
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5450px;
+    top: 5600px;
     height: 380px;
   }
 }
 @media (min-width: 490px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 60px;
   }
 
@@ -328,12 +342,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5500px;
+    top: 5680px;
     height: 380px;
   }
 }
 @media (min-width: 500px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 70px;
   }
 
@@ -346,12 +360,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5550px;
+    top: 5700px;
     height: 380px;
   }
 }
 @media (min-width: 510px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 75px;
   }
 
@@ -364,22 +378,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5600px;
-    height: 380px;
-  }
-}
-@media (min-width: 510px) {
-  .background {
-    height: 1200px;
-  }
-  .background.second {
-    transform: skewY(-3deg);
-    top: 5650px;
+    top: 5720px;
     height: 380px;
   }
 }
 @media (min-width: 530px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 80px;
   }
 
@@ -392,12 +396,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5680px;
+    top: 5800px;
     height: 380px;
   }
 }
 @media (min-width: 540px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 90px;
   }
 
@@ -410,12 +414,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5750px;
+    top: 5875px;
     height: 380px;
   }
 }
 @media (min-width: 560px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 140px;
   }
 
@@ -428,12 +432,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5750px;
+    top: 5950px;
     height: 380px;
   }
 }
 @media (min-width: 570px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 150px;
   }
 
@@ -446,12 +450,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5875px;
+    top: 6000px;
     height: 380px;
   }
 }
 @media (min-width: 590px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 160px;
   }
 
@@ -464,12 +468,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 5950px;
+    top: 6050px;
     height: 380px;
   }
 }
 @media (min-width: 600px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 170px;
   }
 
@@ -478,7 +482,6 @@ section {
   }
 
   .sect-2 {
-    margin-top: 150px;
     margin-left: 11px;
   }
 
@@ -487,12 +490,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6000px;
+    top: 6150px;
     height: 380px;
   }
 }
 @media (min-width: 610px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 180px;
   }
 
@@ -509,12 +512,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6100px;
+    top: 6200px;
     height: 380px;
   }
 }
 @media (min-width: 630px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 190px;
   }
 
@@ -531,12 +534,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6200px;
+    top: 6300px;
     height: 380px;
   }
 }
 @media (min-width: 650px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 200px;
   }
 
@@ -553,12 +556,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6300px;
+    top: 6350px;
     height: 380px;
   }
 }
 @media (min-width: 670px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 210px;
   }
 
@@ -575,12 +578,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6400px;
+    top: 6500px;
     height: 380px;
   }
 }
 @media (min-width: 690px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 220px;
   }
 
@@ -597,12 +600,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6500px;
+    top: 6550px;
     height: 380px;
   }
 }
 @media (min-width: 710px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 230px;
   }
 
@@ -619,7 +622,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6550px;
+    top: 6650px;
     height: 380px;
   }
 }
@@ -633,7 +636,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6650px;
+    top: 6700px;
     height: 380px;
   }
 }
@@ -647,7 +650,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6750px;
+    top: 6800px;
     height: 380px;
   }
 }
@@ -661,7 +664,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6800px;
+    top: 6875px;
     height: 380px;
   }
 }
@@ -675,7 +678,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6850px;
+    top: 6950px;
     height: 380px;
   }
 }
@@ -689,7 +692,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 6900px;
+    top: 7050px;
     height: 380px;
   }
 }
@@ -703,12 +706,12 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 7000px;
+    top: 7100px;
     height: 380px;
   }
 }
 @media (min-width: 830px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 250px;
   }
 
@@ -721,7 +724,7 @@ section {
   }
 }
 @media (min-width: 850px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 260px;
   }
 
@@ -734,7 +737,7 @@ section {
   }
 }
 @media (min-width: 870px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 270px;
   }
 
@@ -749,11 +752,15 @@ section {
 @media (min-width: 880px) {
   .sect-2 {
     margin-left: 100px;
-    margin-top: 175px;
+  }
+
+  .title.secondary-tit {
+    color: #ffffff;
+    margin-top: 90px;
   }
 }
 @media (min-width: 950px) {
-  .sect-5 {
+  .img-3 {
     margin-left: 0;
   }
 
@@ -778,8 +785,8 @@ section {
     margin-left: 75px;
   }
   .title.secondary-tit.last-tit {
-    margin-left: 100px;
     margin-top: 150px;
+    align-self: center;
   }
   .title.small {
     margin: 17px 20px;
@@ -858,7 +865,7 @@ section {
     height: 364px;
   }
 
-  .sect-5 {
+  .img-3 {
     margin-bottom: 40px;
   }
 
@@ -873,6 +880,14 @@ section {
 
   .sect-6 {
     margin-top: 100px;
+  }
+
+  .sect-6 .container {
+    margin: 0;
+  }
+
+  .sect-6 .secondary-tit {
+    margin-left: 0;
   }
 
   footer {
@@ -901,7 +916,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 3325px;
+    top: 3350px;
     height: 518px;
   }
 
@@ -935,9 +950,8 @@ section {
     margin-top: 200px;
     margin-left: 120px;
   }
-  .title.secondary-tit.last-tit {
-    margin-left: 200px;
-    margin-top: 150px;
+  .title.last-tit {
+    margin-left: 0;
   }
 }
 @media (min-width: 1250px) {
@@ -950,7 +964,7 @@ section {
     margin-left: 120px;
   }
   .title.secondary-tit.last-tit {
-    margin-left: 200px;
+    margin-left: 0;
     margin-top: 150px;
   }
 }
@@ -964,7 +978,7 @@ section {
     margin-left: 120px;
   }
   .title.secondary-tit.last-tit {
-    margin-left: 300px;
+    margin-left: 0;
     margin-top: 150px;
   }
 }
@@ -981,7 +995,6 @@ section {
     margin-left: 0;
   }
   .title.secondary-tit.last-tit {
-    margin-left: 200px;
     margin-top: 150px;
   }
   .title.secondary-tit.small {
@@ -1113,7 +1126,7 @@ section {
   }
   .background.second {
     transform: skewY(-3deg);
-    top: 3295px;
+    top: 3325px;
     height: 518px;
   }
 

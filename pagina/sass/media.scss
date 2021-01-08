@@ -11,13 +11,25 @@
         min-height: 240px;
         max-height: 620px;
     }
-    .sec-link{
-            justify-content: center;
+    .links{
+        margin-top: 56px;
+        &.sec-link{
+            align-self: center;
+        }
     }
 }
 //trancision de 320 hasta 950
+@media(min-width:330px){
+    .background{
+        &.second{
+            transform: skewY(-3deg);
+            top: 5050px;
+            height: 380px;
+        }
+    }
+}
 @media(min-width:350px){
-    .sect-5{
+    .img-3{
         margin-left: 25px;
     }
     .phone{
@@ -27,12 +39,12 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 4950px;
+            top: 5150px;
             height: 380px;
         }
 }
 @media(min-width:370px){
-    .sect-5{
+    .img-3{
         margin-left: 30px;
     }
     .phone{
@@ -42,14 +54,14 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 5050px;
+            top: 5250px;
             height: 380px;
         }
 }
 }
 }
 @media(min-width:390px){
-    .sect-5{
+    .img-3{
         margin-left: 35px;
     }
     .phone{
@@ -59,13 +71,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 5100px;
+            top: 5300px;
             height: 380px;
         }
 }
 }
 @media(min-width:410px){
-    .sect-5{
+    .img-3{
         margin-left: 40px;
     }
     .phone{
@@ -75,13 +87,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 5225px;
+            top: 5400px;
             height: 380px;
         }
 }
 }
 @media(min-width:440px){
-    .sect-5{
+    .img-3{
         margin-left: 45px;
     }
     .phone{
@@ -91,13 +103,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 5325px;
+            top: 5490px;
             height: 380px;
         }
 }
 }
 @media(min-width:460px){
-    .sect-5{
+    .img-3{
         margin-left: 50px;
     }
     .phone{
@@ -107,69 +119,21 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 5350px;
+            top: 5590px;
             height: 380px;
         }
 }
 }
 @media(min-width:470px){
-    .sect-5{
+    .img-3{
         margin-left: 55px;
     }
     .phone{
         margin-left: 50px;
     }
-    .sect-2{
-        margin-top: 100px;
-    }
-    .background{
-        height: 1200px;
-        &.second{
-            transform: skewY(-3deg);
-            top: 5450px;
-            height: 380px;
-        }
-    }
-}
-@media(min-width:490px){
-    .sect-5{
-        margin-left: 60px;
-    }
-    .phone{
-        margin-left: 55px;
-    }
-    .background{
-        height: 1200px;
-        &.second{
-            transform: skewY(-3deg);
-            top: 5500px;
-            height: 380px;
-        }
-}
-}
-@media(min-width:500px){
-    .sect-5{
-        margin-left: 70px;
-    }
-    .phone{
-        margin-left: 60px;
-    }
-    .background{
-        height: 1200px;
-        &.second{
-            transform: skewY(-3deg);
-            top: 5550px;
-            height: 380px;
-        }
-}
-}
-@media(min-width:510px){
-    .sect-5{
-        margin-left: 75px;
-    }
-    .phone{
-        margin-left: 65px;
-    }
+    // .sect-2{
+    //     margin-top: 100px;
+    // }
     .background{
         height: 1200px;
         &.second{
@@ -177,24 +141,14 @@
             top: 5600px;
             height: 380px;
         }
+    }
 }
-}
-@media(min-width:510px){
-    .background{
-        height: 1200px;
-        &.second{
-            transform: skewY(-3deg);
-            top: 5650px;
-            height: 380px;
-        }
-}
-}
-@media(min-width:530px){
-    .sect-5{
-        margin-left: 80px;
+@media(min-width:490px){
+    .img-3{
+        margin-left: 60px;
     }
     .phone{
-        margin-left: 70px;
+        margin-left: 55px;
     }
     .background{
         height: 1200px;
@@ -205,44 +159,60 @@
         }
 }
 }
+@media(min-width:500px){
+    .img-3{
+        margin-left: 70px;
+    }
+    .phone{
+        margin-left: 60px;
+    }
+    .background{
+        height: 1200px;
+        &.second{
+            transform: skewY(-3deg);
+            top: 5700px;
+            height: 380px;
+        }
+}
+}
+@media(min-width:510px){
+    .img-3{
+        margin-left: 75px;
+    }
+    .phone{
+        margin-left: 65px;
+    }
+    .background{
+        height: 1200px;
+        &.second{
+            transform: skewY(-3deg);
+            top: 5720px;
+            height: 380px;
+        }
+}
+}
+@media(min-width:530px){
+    .img-3{
+        margin-left: 80px;
+    }
+    .phone{
+        margin-left: 70px;
+    }
+    .background{
+        height: 1200px;
+        &.second{
+            transform: skewY(-3deg);
+            top: 5800px;
+            height: 380px;
+        }
+}
+}
 @media(min-width:540px){
-    .sect-5{
+    .img-3{
         margin-left: 90px;
     }
     .phone{
         margin-left: 75px;
-    }
-    .background{
-        height: 1200px;
-        &.second{
-            transform: skewY(-3deg);
-            top: 5750px;
-            height: 380px;
-        }
-}
-}
-@media(min-width:560px){
-    .sect-5{
-        margin-left: 140px;
-    }
-    .phone{
-        margin-left: 80px;
-    }
-    .background{
-        height: 1200px;
-        &.second{
-            transform: skewY(-3deg);
-            top: 5750px;
-            height: 380px;
-        }
-}
-}
-@media(min-width:570px){
-    .sect-5{
-        margin-left: 150px;
-    }
-    .phone{
-        margin-left: 85px;
     }
     .background{
         height: 1200px;
@@ -253,12 +223,12 @@
         }
 }
 }
-@media(min-width:590px){
-    .sect-5{
-        margin-left: 160px;
+@media(min-width:560px){
+    .img-3{
+        margin-left: 140px;
     }
     .phone{
-        margin-left: 90px;
+        margin-left: 80px;
     }
     .background{
         height: 1200px;
@@ -269,16 +239,12 @@
         }
 }
 }
-@media(min-width:600px){
-    .sect-5{
-        margin-left: 170px;
+@media(min-width:570px){
+    .img-3{
+        margin-left: 150px;
     }
     .phone{
-        margin-left: 95px;
-    }
-    .sect-2{
-        margin-top: 150px;
-        margin-left: 11px;
+        margin-left: 85px;
     }
     .background{
         height: 1200px;
@@ -287,10 +253,46 @@
             top: 6000px;
             height: 380px;
         }
+}
+}
+@media(min-width:590px){
+    .img-3{
+        margin-left: 160px;
+    }
+    .phone{
+        margin-left: 90px;
+    }
+    .background{
+        height: 1200px;
+        &.second{
+            transform: skewY(-3deg);
+            top: 6050px;
+            height: 380px;
+        }
+}
+}
+@media(min-width:600px){
+    .img-3{
+        margin-left: 170px;
+    }
+    .phone{
+        margin-left: 95px;
+    }
+    .sect-2{
+        // margin-top: 150px;
+        margin-left: 11px;
+    }
+    .background{
+        height: 1200px;
+        &.second{
+            transform: skewY(-3deg);
+            top: 6150px;
+            height: 380px;
+        }
     }
 }
 @media(min-width:610px){
-    .sect-5{
+    .img-3{
         margin-left: 180px;
     }
     .phone{
@@ -303,13 +305,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6100px;
+            top: 6200px;
             height: 380px;
         }
 }
 }
 @media(min-width:630px){
-    .sect-5{
+    .img-3{
         margin-left: 190px;
     }
     .phone{
@@ -322,13 +324,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6200px;
+            top: 6300px;
             height: 380px;
         }
 }
 }
 @media(min-width:650px){
-    .sect-5{
+    .img-3{
         margin-left: 200px;
     }
     .phone{
@@ -341,13 +343,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6300px;
+            top: 6350px;
             height: 380px;
         }
 }
 }
 @media(min-width:670px){
-    .sect-5{
+    .img-3{
         margin-left: 210px;
     }
     .phone{
@@ -360,13 +362,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6400px;
+            top: 6500px;
             height: 380px;
         }
 }
 }
 @media(min-width:690px){
-    .sect-5{
+    .img-3{
         margin-left: 220px;
     }
     .phone{
@@ -379,13 +381,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6500px;
+            top: 6550px;
             height: 380px;
         }
 }
 }
 @media(min-width:710px){
-    .sect-5{
+    .img-3{
         margin-left: 230px;
     }
     .phone{
@@ -398,7 +400,7 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6550px;
+            top: 6650px;
             height: 380px;
         }
 }
@@ -411,7 +413,7 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6650px;
+            top: 6700px;
             height: 380px;
         }
 }
@@ -424,7 +426,7 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6750px;
+            top: 6800px;
             height: 380px;
         }
 }
@@ -437,7 +439,7 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6800px;
+            top: 6875px;
             height: 380px;
         }
 }
@@ -450,7 +452,7 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6850px;
+            top: 6950px;
             height: 380px;
         }
 }
@@ -463,7 +465,7 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 6900px;
+            top: 7050px;
             height: 380px;
         }
 }
@@ -476,13 +478,13 @@
         height: 1200px;
         &.second{
             transform: skewY(-3deg);
-            top: 7000px;
+            top: 7100px;
             height: 380px;
         }
 }
 }
 @media(min-width:830px){
-    .sect-5{
+    .img-3{
         margin-left: 250px;
     }
     .phone{
@@ -493,7 +495,7 @@
     }
 }
 @media(min-width:850px){
-    .sect-5{
+    .img-3{
         margin-left: 260px;
     }
     .phone{
@@ -504,7 +506,7 @@
     }
 }
 @media(min-width:870px){
-    .sect-5{
+    .img-3{
         margin-left: 270px;
     }
     .phone{
@@ -517,12 +519,18 @@
 @media(min-width:880px){
     .sect-2{
         margin-left: 100px;
-        margin-top: 175px;
+        // margin-top: 175px;
+    }
+    .title{
+        &.secondary-tit{
+            color: #ffffff;
+            margin-top: 90px;
+        }
     }
 }
 //medio 950px
 @media(min-width:950px){
-    .sect-5{
+    .img-3{
         margin-left: 0;
     }
     .phone{
@@ -542,8 +550,8 @@
             margin-top: 200px;
             margin-left: 75px;
             &.last-tit{
-                margin-left: 100px;
                 margin-top: 150px;
+                align-self: center;
             }
         }
         &.small{
@@ -617,7 +625,7 @@
             width: 100%;
             height: 364px;
         }
-    .sect-5{
+    .img-3{
         margin-bottom: 40px;
     }
     .box{
@@ -629,6 +637,12 @@
     }
     .sect-6{
         margin-top: 100px;
+    }
+    .sect-6 .container{
+        margin: 0;
+    }
+    .sect-6 .secondary-tit{
+        margin-left: 0;
     }
     footer{
         margin-top: 30px;
@@ -653,7 +667,7 @@
         height: 1000px;
         &.second{
             transform: skewY(-3deg);
-            top: 3325px;
+            top: 3350px;
             height: 518px;
         }
     }
@@ -685,10 +699,9 @@
         &.secondary-tit{
             margin-top: 200px;
             margin-left: 120px;
-            &.last-tit{
-                margin-left: 200px;
-                margin-top: 150px;
-            }
+        }
+        &.last-tit{
+            margin-left: 0;
         }
     }
 }
@@ -701,7 +714,7 @@
             margin-top: 200px;
             margin-left: 120px;
             &.last-tit{
-                margin-left: 200px;
+                margin-left: 0;
                 margin-top: 150px;
             }
         }
@@ -715,7 +728,7 @@
             margin-top: 200px;
             margin-left: 120px;
             &.last-tit{
-                margin-left: 300px;
+                margin-left: 0;
                 margin-top: 150px;
             }
     }
@@ -734,7 +747,6 @@
             margin-top: 200px;
             margin-left: 0;
             &.last-tit{
-                margin-left: 200px;
                 margin-top: 150px;
             }
             &.small{
@@ -852,7 +864,7 @@
         height: 1000px;
         &.second{
             transform: skewY(-3deg);
-            top: 3295px;
+            top: 3325px;
             height: 518px;
         }
     }
