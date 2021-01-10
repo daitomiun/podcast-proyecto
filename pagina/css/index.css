@@ -27,6 +27,11 @@ section {
   height: 385px;
 }
 
+iframe {
+  border: 0;
+  background-color: transparent;
+}
+
 .container {
   display: flex;
   flex-direction: column;
