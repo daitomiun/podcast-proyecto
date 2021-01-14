@@ -155,7 +155,9 @@ iframe{
 }
 .footer{
     text-align: center;
-    & i{
+    & a{
+        color: #000000;
+        text-decoration: none;
         margin: 16px 19px 0 23px;
     }
 }
